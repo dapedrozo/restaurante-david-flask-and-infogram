@@ -1,0 +1,6 @@
+heroku login
+git init
+heroku git:remote -a restaurante-david
+git add .
+git commit -am "Restaurante commit"
+git push heroku master
